@@ -22,10 +22,10 @@ export default {
             },
             swiperList: [{
                 id: '0001',
-                imgUrl:''
+                imgUrl:'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg'
             },{
                 id: '0002',
-                imgUrl:''
+                imgUrl:'http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg'
             }]
         }
     }
@@ -35,13 +35,15 @@ export default {
 <style lang="stylus" scoped>
     .wrapper >>> .swiper-pagination-bullet-active //样式进行了穿透
         background: #fff
+        z-index 10
     .wrapper
         width: 100%
         height: 0
         overflow: hidden
-        padding-bottom:31.25% 
+        padding-bottom:36.25% 
         background: #eee;
         .swiper-img
             width: 100%
+            height 100%
 
 </style>
