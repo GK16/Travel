@@ -24,7 +24,7 @@ export default {
                 id: '0001',
                 imgUrl:''
             },{
-                id: '0001',
+                id: '0002',
                 imgUrl:''
             }]
         }
